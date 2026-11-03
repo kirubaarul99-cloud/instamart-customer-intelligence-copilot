@@ -1,0 +1,11 @@
+pandas==2.2.3
+numpy==2.3.5
+scikit-learn==1.8.0
+joblib==1.5.3
+scipy==1.17.0
+threadpoolctl==3.6.0
+python-dateutil==2.9.0.post0
+pytz==2026.2
+tzdata==2026.2
+six==1.17.0
+matplotlib==3.11.2

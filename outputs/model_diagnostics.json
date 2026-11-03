@@ -1,0 +1,59 @@
+{
+  "rf_top5_importance": [
+    {
+      "feature": "num__monetary",
+      "importance": 0.28042797323447766
+    },
+    {
+      "feature": "num__frequency",
+      "importance": 0.2779114639515003
+    },
+    {
+      "feature": "num__recency",
+      "importance": 0.10911838928525139
+    },
+    {
+      "feature": "num__avg_delivery",
+      "importance": 0.05973215577847373
+    },
+    {
+      "feature": "num__cancellation_rate",
+      "importance": 0.05183377028547708
+    }
+  ],
+  "logistic_coefficients": [
+    {
+      "feature": "num__recency",
+      "coefficient": 0.03916651869312805,
+      "sign": "positive"
+    },
+    {
+      "feature": "num__frequency",
+      "coefficient": -1.6973327173942363,
+      "sign": "negative"
+    },
+    {
+      "feature": "num__monetary",
+      "coefficient": 0.2834321166932589,
+      "sign": "positive"
+    }
+  ],
+  "balanced_logistic": {
+    "train_class_counts": {
+      "0": 570,
+      "1": 570
+    },
+    "precision": 0.5891472868217055,
+    "recall": 0.8539325842696629,
+    "f1": 0.6972477064220184
+  },
+  "frequency_scaler_train_mean": 8.114718614718615,
+  "frequency_full_cohort_mean": 8.028546712802768,
+  "train_rows": 924,
+  "test_rows": 232,
+  "baseline_lapsed_precision": 0.0,
+  "baseline_lapsed_recall": 0.0,
+  "baseline_lapsed_f1": 0.0,
+  "model_reload_predictions_identical": true,
+  "missing_features_after_imputation": 0
+}

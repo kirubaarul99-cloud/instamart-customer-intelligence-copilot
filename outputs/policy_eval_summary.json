@@ -1,0 +1,21 @@
+[
+  {
+    "configuration": "overlap_10",
+    "chunk_count": 15,
+    "expected_doc_retrieved": "12/12",
+    "expected_fact_found": "12/12",
+    "fallback_correct": "2/2",
+    "failed_questions": []
+  },
+  {
+    "configuration": "overlap_0",
+    "chunk_count": 13,
+    "expected_doc_retrieved": "12/12",
+    "expected_fact_found": "10/12",
+    "fallback_correct": "2/2",
+    "failed_questions": [
+      "What delivery time makes a completed order eligible for a full refund?",
+      "How soon is money returned when a payment fails but is deducted?"
+    ]
+  }
+]
